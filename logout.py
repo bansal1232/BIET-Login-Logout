@@ -12,6 +12,8 @@ def biet_logout(username,password):
 		print("Something might wrong! Please check your internet connection",flush=True)
 	time.sleep(0.3)
 if __name__ == '__main__':
+	
+	#Type registered username and password 
 	username = ""
 	password = ""
 	biet_logout(username, password)
